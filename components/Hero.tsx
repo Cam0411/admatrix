@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                     GIẢI MÃ "HỘP ĐEN" TĂNG TRƯỞNG
                 </h2>
                 <p className="text-base md:text-lg text-gray-300 max-w-xl mx-auto md:mx-0 mb-8">
-                    Dành cho Doanh nghiệp E-commerce (Doanh thu &gt;1.5 tỷ/tháng) đang muốn thoát khỏi "địa ngục Excel" và chuyển sang quản trị doanh nghiệp minh bạch, tự động và dựa trên dữ liệu thật.
+                    Dành cho Doanh nghiệp (Doanh thu &gt;1.5 tỷ/tháng) đang muốn thoát khỏi "địa ngục Excel" và chuyển sang quản trị doanh nghiệp minh bạch, tự động và dựa trên dữ liệu thật.
                 </p>
                 <a href="#checklist" className="bg-slate-900/80 hover:bg-slate-900 border border-slate-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg shadow-black/30 transition-all transform hover:scale-105 text-lg inline-block">
                     Đăng ký trải nghiệm

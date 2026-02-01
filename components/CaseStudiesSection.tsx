@@ -74,7 +74,7 @@ const CaseStudiesSection: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Sức Mạnh Của MDP Trong Thực Tế</h2>
           <p className="text-base md:text-lg text-gray-500 max-w-3xl mx-auto">
-            Những câu chuyện thành công (và cả thất bại) từ các doanh nghiệp Retail & E-commerce.
+            Những câu chuyện thành công và cả thất bại từ các doanh nghiệp bán lẻ & trên các sàn.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-8">

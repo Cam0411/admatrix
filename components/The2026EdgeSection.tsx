@@ -11,8 +11,8 @@ const edgeData = [
   },
   {
     icon: 'fa-tachometer-alt',
-    title: 'Quản Trị Near Real-time',
-    subtitle: 'Gần như thời gian thực',
+    title: 'Quản Trị gần như thời gian thực',
+    subtitle: ' Neare Real-time',
     current: 'Báo cáo tháng/tuần đã quá trễ để sửa sai trong các dịp Mega Sale.',
     breakthrough: 'Dữ liệu cập nhật với độ trễ chỉ 30 giây - 1 phút so với thực tế. Giúp ra quyết định "tắt/bật" chiến dịch trong ngày siêu sale ngay lập tức.'
   },
@@ -30,7 +30,7 @@ const The2026EdgeSection: React.FC = () => {
     <section id="edge" className="py-16 md:py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">3 "Vũ Khí" Giúp Bạn Bứt Phá Năm 2026 (The 2026 Edge)</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">3 "Vũ Khí" Giúp Bạn Bứt Phá Năm 2026</h2>
           <p className="text-base md:text-lg text-gray-500 max-w-3xl mx-auto">
             Đây không phải là lý thuyết. Đây là những năng lực thực chiến giúp doanh nghiệp sống sót và thống trị trong bối cảnh thị trường mới.
           </p>

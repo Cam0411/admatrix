@@ -11,7 +11,7 @@ const steps = [
   {
     icon: 'fa-broom',
     title: '2. Làm Sạch & Chuẩn Hóa',
-    description: 'Tự động Mapping (khớp nối) tên sản phẩm khác nhau về một mã SKU duy nhất. Loại bỏ đơn ảo, đơn hủy để tính toán doanh thu thực tế.',
+    description: 'Tự động khớp nối tên sản phẩm khác nhau về một mã SKU duy nhất. Loại bỏ đơn ảo, đơn hủy để tính toán doanh thu thực tế.',
     layer: 'The Cleaning Layer'
   },
   {
@@ -23,7 +23,7 @@ const steps = [
   {
     icon: 'fa-chart-line',
     title: '4. Trực Quan Hóa & Kích Hoạt',
-    description: 'Biến dữ liệu thô thành các Dashboard thông minh trả lời câu hỏi: "Hôm nay Lãi hay Lỗ?". Kích hoạt dữ liệu sang các công cụ Automation (Chatbot, Email).',
+    description: 'Biến dữ liệu thô thành các Dashboard thông minh trả lời câu hỏi: "Hôm nay Lãi hay Lỗ?". Kích hoạt dữ liệu sang các công cụ tự động hóa (Chatbot, Email).',
     layer: 'Visualization & Activation'
   },
 ];

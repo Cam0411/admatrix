@@ -4,7 +4,8 @@ const trendsData = [
   {
     title: 'Agentic Marketing Automation',
     subtitle: 'Khi AI không chỉ là công cụ, mà là "Nhân viên thực thi"',
-    description: 'Thay vì Marketer phải thiết lập luồng, AI Agent sẽ tự truy cập vào MDP, tự phân tích, tự tạo nội dung và tự quyết định thời điểm "chạm" tốt nhất.',
+    description: 'Năm 2026, chúng ta bước qua thời kỳ của Marketing Automation dựa trên kịch bản (If-Then) cứng nhắc. Sự kết hợp giữa MDP và Agentic AI tạo ra những "Tác nhân AI" có khả năng tự chủ.',
+    img: "https://ik.imagekit.io/39wvgoqre/D%E1%BB%AF%20li%E1%BB%87u%20/d24ccadf-8474-4091-bfb2-a85b66274d07.png",
     keyPoints: [
       { icon: 'fa-brain', text: 'Tự chủ ra quyết định dựa trên dữ liệu thời gian thực.' },
       { icon: 'fa-magic', text: 'Tự động cá nhân hóa nội dung bằng GenAI.' },
@@ -14,7 +15,8 @@ const trendsData = [
   {
     title: 'Composable MDP & Zero-Copy',
     subtitle: 'Tạm biệt nỗi lo "Chuyển kho dữ liệu"',
-    description: 'Dữ liệu nằm yên tại kho của bạn (BigQuery, Snowflake). MDP kết nối trực tiếp để xử lý mà không cần sao chép, mang lại tốc độ, bảo mật và hiệu quả chi phí.',
+    description: 'Dữ liệu tập trung tại một nơi. MDP kết nối trực tiếp để xử lý mà không cần sao chép, mang lại tốc độ, bảo mật và hiệu quả chi phí.',
+     img: "https://ik.imagekit.io/39wvgoqre/D%E1%BB%AF%20li%E1%BB%87u%20/88e46e4d-d3f0-4fdb-8893-71aa743c1a92.png",
     keyPoints: [
         { icon: 'fa-rocket', text: 'Triển khai tính năng mới trong vài ngày, không phải vài tháng.' },
         { icon: 'fa-lock', text: 'Bảo mật tối đa, giảm thiểu rủi ro rò rỉ dữ liệu.' },
@@ -24,10 +26,11 @@ const trendsData = [
   {
     title: 'Cá nhân hóa bảo mật cao',
     subtitle: 'Khi Third-party Cookie biến mất',
-    description: 'MDP trở thành "pháo đài" giúp doanh nghiệp cá nhân hóa hiệu quả mà không xâm phạm quyền riêng tư, tuân thủ các nghị định bảo mật mới nhất.',
+    description: 'Khi các trình duyệt khai tử hoàn toàn Third-party Cookie và Nghị định bảo vệ dữ liệu cá nhân được thực thi nghiêm ngặt, MDP trở thành "pháo đài" giúp doanh nghiệp cá nhân hóa mà không xâm phạm quyền riêng tư.',
+     img: "https://ik.imagekit.io/39wvgoqre/D%E1%BB%AF%20li%E1%BB%87u%20/12341.png",
     keyPoints: [
-      { icon: 'fa-user-shield', text: 'Sử dụng Data Clean Rooms để hợp tác an toàn.' },
-      { icon: 'fa-check-circle', text: 'Tối đa hóa First-party Data dựa trên sự đồng ý.' },
+      { icon: 'fa-user-shield', text: ' MDP cho phép doanh nghiệp kết nối dữ liệu với các đối tác (như nhà đài, sàn TMĐT) trong một môi trường trung gian an toàn. ' },
+      { icon: 'fa-check-circle', text: 'Tập trung tối đa vào việc khai thác dữ liệu tự thân.' },
       { icon: 'fa-balance-scale', text: 'Luôn tuân thủ các quy định bảo mật (Nghị định 13).' },
     ],
   }
@@ -39,8 +42,7 @@ const TrendItem: React.FC<{ trend: typeof trendsData[0]; reverse: boolean }> = m
     <div className="md:w-1/2 flex justify-center items-center p-4 min-h-[250px] md:min-h-0">
       <div className="w-full max-w-md h-48 bg-slate-100/50 border-2 border-dashed border-gray-300 rounded-2xl flex items-center justify-center p-4 shadow-inner transition-all duration-300 group hover:border-blue-400 hover:bg-slate-100">
         <div className="text-center">
-            <i className="fas fa-image text-4xl text-gray-300 group-hover:text-blue-300 transition-colors"></i>
-            <p className="text-gray-400 text-lg font-medium mt-2 group-hover:text-blue-500 transition-colors">{trend.title}</p>
+          <img src={trend.img} alt="" srcset="" />
         </div>
       </div>
     </div>

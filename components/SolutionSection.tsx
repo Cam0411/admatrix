@@ -6,9 +6,9 @@ const SolutionSection: React.FC = () => {
     <section id="solution" className="py-16 md:py-20 bg-slate-50/70">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Giải pháp là một <span className="bg-gradient-to-r from-blue-600 to-purple-500 text-transparent bg-clip-text">Mindset Shift</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">   Từ "Vận Hành Thủ Công" sang <span className="bg-gradient-to-r from-blue-600 to-purple-500 text-transparent bg-clip-text">          "Người Giám Sát AI".</span></h2>
             <p className="text-base md:text-lg text-gray-500 max-w-3xl mx-auto">
-            Từ "Vận Hành Thủ Công" sang "Người Giám Sát AI". Vai trò của bạn không phải là "chạy ads", mà là "cung cấp nhiên liệu cho AI". Nhiên liệu đó chính là <span className="font-bold text-gray-800">Dữ liệu nội bộ chính xác (First-party Data).</span>
+ Vai trò của bạn không phải là "chạy ads", mà là "cung cấp nhiên liệu cho AI". Nhiên liệu đó chính là <span className="font-bold text-gray-800">Dữ liệu nội bộ chính xác.</span>
             </p>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-12">
@@ -18,7 +18,7 @@ const SolutionSection: React.FC = () => {
             <div className="md:w-1/2">
                 <h3 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900">Admatrix MDP: "Hệ Thần Kinh Trung Ương" Của Doanh Nghiệp Bán Lẻ</h3>
                 <p className="text-gray-600 mb-6 text-base md:text-lg">
-                    Thay vì những file Excel rời rạc, kiến trúc MDP (Marketing Data Platform) thế hệ mới hoạt động như một bộ não tập trung, hợp nhất mọi nguồn dữ liệu, mang lại cho bạn một nguồn sự thật duy nhất (Single Source of Truth).
+                    Thay vì những file Excel rời rạc, kiến trúc MDP (Marketing Data Platform) thế hệ mới hoạt động như một bộ não tập trung, hợp nhất mọi nguồn dữ liệu, mang lại cho bạn một nguồn sự thật duy nhất.
                 </p>
                 <div className="space-y-4">
                     <div className="flex items-start">
